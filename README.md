@@ -1,21 +1,18 @@
 # JSON and KV Store inside of Spin with Python
 
-This is an example of using Spin's built-in KV Store to store and retrieve JSON documents in Python.
+This is an example of using Spin's built-in [KV Store](https://developer.fermyon.com/spin/v2/key-value-store-tutorial) to store and retrieve JSON documents in Python.
 
 It exemplifies a similar pattern to the built-in JSON handling in the Spin SDK for JS/TS.
 
 ## Prerequisites
 
 * [Spin](https://developer.fermyon.com/spin)
-* [pipenv](https://pipenv.pypa.io/en/latest/index.html)
 
 ## Installing
 
-* Install the dependencies with `pipenv update`
 * Build with `spin build`
 
 ```
-$ pipenv update
 $ spin build
 ```
 
